@@ -1,0 +1,310 @@
+@font-face {
+    font-family: Roboto-Italic;
+    src: url('https://fonts.googleapis.com/css?family=Roboto:i') format('embedded-opentype');
+}
+@media only screen and (min-width: 76.1875em) {
+  .md-content {
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 76.1875em){
+    .md-content{
+        margin-left: 24.2rem;
+        margin-right: 0;
+    }
+}
+.md-sidebar__scrollwrap .md-nav__item{
+    max-width: 23.3rem;
+}
+.md-sidebar__scrollwrap{
+    overflow-y: hidden;
+}
+.md-sidebar__scrollwrap:hover{
+    overflow-y: auto;
+}
+.md-nav__title{
+    position: fixed;
+    top: 2.4rem;
+    width: 100%;
+    padding:0 0.25rem;
+    background: #FFFFFF;
+}
+.md-nav--secondary{
+    padding-top: 2rem;
+}
+button[data-md-color-primary="black"] {
+    background-color: #2b292e; }
+
+[data-md-color-primary="black"] .md-typeset a {
+    color: #3f51b5; }
+
+[data-md-color-primary="black"] .md-header {
+    background-color: #2b292e; }
+
+[data-md-color-primary="black"] .md-hero {
+    background-color: #2b292e; }
+
+[data-md-color-primary="black"] .md-nav__link:active,
+[data-md-color-primary="black"] .md-nav__link--active
+    color: #2b292e; }
+
+[data-md-color-primary="black"] .md-nav__item--nested > .md-nav__link {
+    color: inherit; }
+i{
+    font-style: normal;
+    color: #797979;
+    font-family: Roboto-Italic;
+}
+.img-row{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.md-typeset .img-row a.img-modal{
+    padding-right: 1rem;
+}
+img[src*="#thumbnail"] {
+    display:inline-block;
+    width: 100%;
+    margin: 0 auto;
+    border: 0.1rem solid #efefef;
+    border-radius: 2px;
+}
+img[src*="#thumbnail-noborder"] {
+    border: none;
+}
+img[src*="#modal"] {
+    display:block;
+    min-height: 100%;
+    min-width: 100%;
+    padding-top: 7.4rem;
+}
+
+.md-sidebar--secondary{
+    margin-left: 0%;
+    -webkit-transform: translate(-0%, 0);
+    transform: translate(-0%, 0); 
+}
+
+.md-sidebar--primary{
+    display: none;
+}
+
+.large-text{
+    font-size: 2.4rem;
+    line-height: 140%;
+    font-weight: 200;
+}
+h1#uxui-audit{
+ display: none;   
+}
+h2#introduction{
+  margin-top: 0;  
+}
+.md-grid{
+    max-width: 100rem;
+}
+.md-container{
+    padding-top: 0;
+}
+.md-typeset p{
+    margin: 0;
+}
+.md-typeset ul, .md-typeset ol{
+    margin-left: 0;
+}
+.md-typeset a{
+    display:inline-block;
+    height: auto;
+    width: auto;
+    border-radius: 5px;
+    padding: 1.6rem 4rem 1.6rem 1.6rem;
+    margin: 1rem 2rem 0 0;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.20);
+    background: white url(../img/link.png) no-repeat 95% 50%; 
+    background-size: 16px;
+}
+
+.md-typeset a:hover{
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.20);
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.spacer{
+    height: 12rem;
+}
+.spacer-md{
+    height: 6rem;
+}
+.spacer-line{
+    border-bottom: 0.1rem solid rgba(0,0,0,0.2);
+    height: 6rem;
+    margin-bottom: 6rem;
+}
+
+.custom-hero{
+    position: relative;
+    height: 85vh;
+    background-color: #2b292e;
+    margin: 0;
+    padding: 30vh 0 25vh 0;
+}
+.hero-text{
+    text-align: left;
+    color: white;
+}
+.md-typeset h1{
+    font-size: 4.2rem;
+}
+.md-typeset h2{
+    font-weight: 700;
+    font-size: 4.2rem;
+    line-height: 1.2;
+    margin: 4rem 0 4rem 0;
+    color: #000000;
+}
+.md-typeset h3{
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 3.2rem;
+    margin: 3.2rem 0 3.6rem 0;
+    color: #000000;
+}
+.md-typeset h4{
+    margin: 1rem 0;
+    font-weight: 600;
+    font-size: 2.4rem;
+    color: #000000;
+}
+.hero-text h1{
+    font-size: 8rem;
+    margin: 0;
+}
+.hero-text h2{
+    font-size: 8rem;
+    margin: 0;
+    font-weight: 100;
+}
+.hero-text h3{
+    font-size: 2.5rem;
+}
+.md-typeset details{
+    overflow: visible;
+    box-shadow: none;
+    border-left: none;
+    margin: 0;
+    padding: 0 0 2rem 0;
+    font-size: 1.6rem;
+}
+.md-typeset details:not([open]) > summary{
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1)
+}
+.md-typeset details > summary::before{
+    display: none;
+}
+.md-typeset details > summary{
+    padding: 2rem 0 2rem 0.8rem;
+    background-color: transparent;
+    border-bottom: none;
+}
+.md-typeset details > summary:hover{
+    background-color: rgba(0, 0, 0, 0.02);
+}
+.md-typeset details > summary h3{
+    margin: 0;
+    padding: 0;
+}
+.md-typeset summary p{
+    margin: 0;
+    padding: 0;
+}
+.md-typeset details > summary::after{
+    right: 0.8rem;
+    top: 2rem;
+    font-size: 2.4rem;
+}
+.md-typeset a.img-modal{
+    display:inline-block;
+    height: auto;
+    width: auto;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    background: none; 
+}
+.md-typeset a.img-modal:hover{
+    box-shadow: none;
+    background-color: none;
+}
+.modal-dialog {
+	position: fixed;
+	width: 100%;
+    height: 100%;
+    top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+    opacity: 0;
+	-webkit-transition: opacity 200ms ease-in;
+	-moz-transition: opacity 200ms ease-in;
+	transition: opacity 200ms ease-in;
+	pointer-events: none;
+}
+.modal-dialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+.modal-header{
+    position: fixed;
+    background-color: #FFFFFF;
+    padding: 1.8rem 3rem;
+    height: 7.4rem;
+    width: 90%;
+    color: #000000;
+    font-size: 2.4rem;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 0.1rem solid rgba(0,0,0,0.2);
+    font-weight: 400;
+}
+.modal-dialog > div {
+	position: absolute;
+    left:0;     
+    right:0;
+    top:0; 
+    bottom:0;
+    margin:auto;
+	border-radius: 10px;
+	background: #ffffff;
+    overflow: auto;
+    max-width:90%;
+    max-height:95%;
+}
+
+.modal-dialog a.close {
+    background: transparent url(../img/close.png) no-repeat center center; 
+	position: absolute;
+    right: 1rem;
+    height: 18px;
+    width: 18px;
+    padding: 0;
+    box-shadow: none;
+    background-size: 18px;
+}
+
+.modal-dialog a.close:hover { 
+    opacity: 0.5; 
+    box-shadow: none;
+}
+.modal-dialog a.modal-close{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+}
